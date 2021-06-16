@@ -1,0 +1,19 @@
+.navbar{
+    height: 80px;
+    background-color: rgb(69, 54, 121);
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.admin{
+    padding-left: 20px;
+    
+    font-size: x-large;
+}
+
+.links{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
