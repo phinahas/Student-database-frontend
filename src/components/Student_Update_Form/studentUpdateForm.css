@@ -1,12 +1,17 @@
 .main-div-update-form{
     border: 2px  solid rgb(49, 168, 184);
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
        
 }
 
+.heading{
+    align-self: center;
+    padding-bottom: 30px;
+}
 .form-update{
     display: flex;
     flex-direction: column;

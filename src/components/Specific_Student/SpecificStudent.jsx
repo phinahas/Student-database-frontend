@@ -10,8 +10,8 @@ function SpecificStudent() {
                 <p>Department:</p>
                 <p>Batch:</p>
                 <p>Address:</p>
-
             </div>
+            <button style={{marginTop:"20px"}}>Update</button>
             
         </div>
     )

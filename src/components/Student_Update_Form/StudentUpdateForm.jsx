@@ -13,6 +13,7 @@ function StudentUpdateForm() {
                     <input className="inputField" type="text" placeholder="Batch(2000-2004)" value="" /><br />
                     <input className="inputField" type="text" placeholder="Mobile Number" value="" /><br />
                     <input className="inputField" type="text" placeholder="Address" value="" /><br />
+                    <input type="submit" value="Update" />
                 </form>
             </div>
 
