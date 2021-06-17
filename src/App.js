@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
@@ -13,9 +13,11 @@ function App() {
     <div className="App">
       <Router>
        <Navbar />
-       <Route path='/view-student'> <ViewSpecificStudent /></Route>
+      <Switch>
+       <Route path='/view-student/:id' component={ViewSpecificStudent} /> 
        <Route path='/' exact> <Home /></Route>
        <Route path='/add-student'> <AddStudent /></Route>
+       </Switch>
       </Router>
 
 

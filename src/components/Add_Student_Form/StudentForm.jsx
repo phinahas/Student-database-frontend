@@ -10,10 +10,13 @@ function StudentForm() {
 
    const submit =(e)=>{
        e.preventDefault();
-       console.log(student)
+     //  console.log(student)
+      
       // setStudent(user)
        axios.post('/add-student',student).then((response)=>{
-           console.log(response.data);
+           //console.log(response.data);
+           alert("Added")
+           window.location.reload()
        })
    }
 
