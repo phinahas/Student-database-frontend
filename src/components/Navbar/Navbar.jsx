@@ -1,5 +1,7 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './navbar.css'
+
 
 function Navbar() {
     return (
@@ -10,7 +12,8 @@ function Navbar() {
          </div>
 
          <div className="links">
-             <p style={ { marginLeft:"20px"} }>Home</p><p style={ { marginLeft:"20px"} }>Add Student</p>
+         <Link to='/' >  <p style={ { marginLeft:"20px", color:"white"} }> Home </p></Link>
+         <Link to='/add-student'> <p style={ { marginLeft:"20px", color:"white"} }> Add Student </p></Link>
 
          </div>
 

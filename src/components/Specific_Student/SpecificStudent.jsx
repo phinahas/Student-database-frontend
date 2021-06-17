@@ -11,7 +11,7 @@ function SpecificStudent() {
                 <p>Batch:</p>
                 <p>Address:</p>
             </div>
-            <button style={{marginTop:"20px"}}>Update</button>
+            <button style={{marginTop:"20px"}}>Edit</button>
             
         </div>
     )
