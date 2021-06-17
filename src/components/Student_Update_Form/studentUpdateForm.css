@@ -1,0 +1,14 @@
+.main-div-update-form{
+    border: 2px  solid rgb(49, 168, 184);
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+       
+}
+
+.form-update{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
