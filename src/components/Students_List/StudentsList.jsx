@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import './studentsList.css'
 function StudentsList() {
+   
     return (
         <div className="main-div-student-list">
             <div className="students-table">
