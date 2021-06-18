@@ -5,7 +5,7 @@ import StudentUpdateForm from '../../components/Student_Update_Form/StudentUpdat
 import axios from '../../axios'
 import { AppContext } from '../../useContext'
 
-
+//To view Specific Student
 function ViewSpecificStudent({ match }) {
     console.log(match.params.id);
 
